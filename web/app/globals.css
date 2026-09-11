@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+/* Readable lesson typography (no typography plugin needed) */
+.lesson-body {
+  @apply text-[1.05rem] leading-8 text-stone-800;
+}
+.lesson-body h1 {
+  @apply text-2xl font-bold text-stone-900 mt-2 mb-4;
+}
+.lesson-body h2 {
+  @apply text-xl font-bold text-stone-900 mt-8 mb-3;
+}
+.lesson-body h3 {
+  @apply text-lg font-semibold text-stone-900 mt-6 mb-2;
+}
+.lesson-body p {
+  @apply my-4;
+}
+.lesson-body ul {
+  @apply my-4 list-disc pl-6 space-y-1;
+}
+.lesson-body ol {
+  @apply my-4 list-decimal pl-6 space-y-1;
+}
+.lesson-body blockquote {
+  @apply my-4 border-l-4 border-green-700 bg-green-50 px-4 py-3 rounded-r-lg text-stone-700;
+}
+.lesson-body table {
+  @apply my-6 w-full text-sm border-collapse;
+}
+.lesson-body th {
+  @apply bg-stone-100 text-left font-semibold px-3 py-2 border border-stone-200;
+}
+.lesson-body td {
+  @apply px-3 py-2 border border-stone-200;
+}
+.lesson-body code {
+  @apply bg-stone-100 rounded px-1.5 py-0.5 text-[0.95em] font-mono;
+}
+.lesson-body pre {
+  @apply bg-stone-900 text-stone-100 rounded-xl p-4 my-4 overflow-x-auto text-sm;
+}
+.lesson-body pre code {
+  @apply bg-transparent p-0;
+}
+.lesson-body strong {
+  @apply font-bold text-stone-900;
+}

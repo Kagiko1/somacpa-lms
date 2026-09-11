@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="112" fill="#15803d"/>
+  <text x="256" y="300" font-family="Georgia, serif" font-size="200" font-weight="bold" fill="#ffffff" text-anchor="middle">S</text>
+  <path d="M156 356 L256 396 L356 356" stroke="#ffffff" stroke-width="24" fill="none" stroke-linecap="round"/>
+  <text x="256" y="452" font-family="system-ui, sans-serif" font-size="44" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="6">CPA</text>
+</svg>

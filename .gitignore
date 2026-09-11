@@ -1,0 +1,18 @@
+# dependencies
+node_modules/
+web/node_modules/
+
+# next.js
+web/.next/
+web/out/
+web/build/
+
+# env files (NEVER commit real keys)
+web/.env*.local
+web/.env.local
+.env.local
+
+# misc
+.DS_Store
+*.log
+dist/
